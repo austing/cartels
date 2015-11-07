@@ -1,0 +1,10 @@
+Django==1.9b1
+django-braces==1.8.1
+django-invitations==1.2
+oauthlib==1.0.3
+python-openid==2.2.5
+requests==2.8.1
+requests-oauthlib==0.5.0
+six==1.10.0
+wheel==0.24.0
+git+git://github.com/pennersr/django-allauth.git@3eaecb9b14708d00d0ed164cf50b9ac3759c8d73

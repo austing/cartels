@@ -1,0 +1,46 @@
+{% extends "problems/base.html" %}
+
+{% load static from staticfiles %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static "bootstrap/dist/css/bootstrap.css" %}">
+    <link rel="stylesheet" href="{% static "css/cartels.css" %}">
+{% endblock %}
+
+{% block js %}
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    <script src="{% static "bootstrap/dist/js/bootstrap.js" %}"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-sm-6 col-xs-12">
+
+      <div class="card text-center">
+        <div class="card-block">
+          <h5 class="card-text">Les Peintres de Skagen forment un groupe d'artistes scandinaves de
+            1870 jusqu'au tournant du siècle qui s'est installé à Skagen, à l'extrémité nord du
+            Jutland au Danemark, pour y peindre la lumière très particulière à cet endroit.
+            L'esthétique des peintres de Skagen se caractérise par la représentation de paysages
+            très réalistes aux couleurs riches.</h5>
+          <!--<progress class="progress progress-info" value="50" max="100">50%</progress>-->
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-muted">
+          2 days ago
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
